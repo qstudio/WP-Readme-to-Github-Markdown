@@ -1,36 +1,14 @@
-<<<<<<< HEAD
-Convert WordPress Plugin Readme Files to GitHub Flavored Markdown
-==================================================================
-
-Features
---------
-
-* Converts headings
-* Formats contributors, donate link, etc.
-* Inserts screenshots
-
-Usage
------
-
-1. Open in browser
-2. Select `readme.txt` file from your plugin
-3. Browser will return you `readme.md` to place in your plugin's directory
-
-Online
-------
-
-gordon@vixo.com hosts this [online](http://wordpress-markdown-to-github-markdown.com/) so you can just convert your readme's on the go.
-=======
-# Plugin Name #
-Contributors: markjaquith, mdawaffe  
-Donate link: http://example.com/  
-Tags: comments, spam  
-Requires at least: 2.0.2  
-Tested up to: 2.1  
+=== Plugin Name ===
+Contributors: markjaquith, mdawaffe
+Donate link: http://example.com/
+Tags: comments, spam
+Requires at least: 2.0.2
+Tested up to: 2.1
 Stable tag: 4.3
 
 Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
-## Description ##
+
+== Description ==
 
 This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
 
@@ -56,7 +34,8 @@ that lacks those changes -- as long as the trunk's `readme.txt` points to the co
 
     If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
 you put the stable version, in order to eliminate any doubt.
-## Installation ##
+
+== Installation ==
 
 This section describes how to install the plugin and get it working.
 
@@ -66,44 +45,46 @@ e.g.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
 
-## Frequently Asked Questions ##
-### A question that someone might have ###
+== Frequently Asked Questions ==
+
+= A question that someone might have =
 
 An answer to that question.
 
-### What about foo bar? ###
+= What about foo bar? =
 
 Answer to foo bar dilemma.
 
-## Screenshots ##
+== Screenshots ==
 
 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
 the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1.png` (or jpg, jpeg, gif)
 2. This is the second screen shot
 
-## Changelog ##
+== Changelog ==
 
-### 1.0 ###
+= 1.0 =
 * A change since the previous version.
 * Another change.
 
-### 0.5 ###
+= 0.5 =
 * List versions from most recent at top to oldest at bottom.
 
-## Upgrade Notice ##
+== Upgrade Notice ==
 
-### 1.0 ###
+= 1.0 =
 Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
 
-### 0.5 ###
+= 0.5 =
 This version fixes a security related bug.  Upgrade immediately.
 
-## Arbitrary section ##
+== Arbitrary section ==
 
 You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
 plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
 "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-## A brief Markdown Example ##
+
+== A brief Markdown Example ==
 
 Ordered list:
 
@@ -127,4 +108,3 @@ Markdown uses email style notation for blockquotes and I've been told:
 > Asterisks for *emphasis*. Double it up  for **strong**.
 
 `<?php code(); // goes in backticks ?>`
->>>>>>> 69ed0bf10d79668a8e0e0f777e1c4033a0339cc4
