@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e4ee1289a6177fd0ef9312cee9bbcf288d54781
 Convert WordPress Plugin Readme Files to GitHub Flavored Markdown
 ==================================================================
 
@@ -19,6 +22,7 @@ Usage
 Online
 ------
 
+<<<<<<< HEAD
 gordon@vixo.com hosts this [online](http://wordpress-markdown-to-github-markdown.com/) so you can just convert your readme's on the go.
 =======
 # Plugin Name #
@@ -128,3 +132,6 @@ Markdown uses email style notation for blockquotes and I've been told:
 
 `<?php code(); // goes in backticks ?>`
 >>>>>>> 69ed0bf10d79668a8e0e0f777e1c4033a0339cc4
+=======
+gordon@vixo.com hosts this [online](http://wordpress-markdown-to-github-markdown.com/) so you can just convert your readme's on the go.
+>>>>>>> 1e4ee1289a6177fd0ef9312cee9bbcf288d54781
