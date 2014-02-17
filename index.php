@@ -3,7 +3,8 @@
  * Converts WordPress-flavored markup from standard readme.txt files
  * to Github-flavored markup for a readme.md file
  * @author Benjamin J. Balter -- http://ben.balter.com
- * @version 1.0
+ * @update by Q Studio
+ * @version 1.1.0
  */
  
 //no file, serve form
@@ -151,12 +152,8 @@ function url_validate( $link ) {
 		fwrite( $socket, "HEAD " . $documentpath . " HTTP/1.0\r\nHost: $host\r\n\r\n" );
 		$http_response = fgets( $socket, 22 );
 
-<<<<<<< HEAD
 		#if ( ereg( "200 OK", $http_response, $regs ) ) {
-                if ( preg_match( "200 OK", $http_response, $regs ) ) {    
-=======
-		if ( ereg( "200 OK", $http_response, $regs ) ) {
->>>>>>> 1e4ee1289a6177fd0ef9312cee9bbcf288d54781
+		if ( preg_match( "200 OK", $http_response, $regs ) ) {    
 			return true;
 			fclose( $socket );
 		} else {
